@@ -27,7 +27,7 @@ const onRequest = (request, response) => {
     case '/timeJSON':
       jsonHandler.getTimeJSON(request, response);
       break;
-    case '/dankMemes':
+    case '/dankmemes':
       imageHandler.getImage(request, response);
       break;
     default:
