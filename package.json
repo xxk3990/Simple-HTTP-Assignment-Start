@@ -1,0 +1,26 @@
+{
+  "name": "simple-http",
+  "version": "1.0.0",
+  "description": "simple-http",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxk3990/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Xander Kaylan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxk3990/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/xxk3990/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
